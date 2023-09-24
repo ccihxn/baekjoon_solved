@@ -15,5 +15,4 @@ fun main() {
         }
     }
     if (count == 0) print("PREDAJA")
-
 }

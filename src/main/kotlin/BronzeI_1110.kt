@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     var sum = a + b
     var bplussum = b * 10 + sum % 10
     var count = 1
-    while(bplussum != n) {
+    while (bplussum != n) {
         a = b
         b = sum % 10
         sum = a + b
