@@ -2,14 +2,13 @@ import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
-import java.lang.Exception
 
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
     val w = BufferedWriter(OutputStreamWriter(System.out))
-    while (true) {
-        val (a, b) = r.readLine()!!.split(" ").map { it.toIntOrNull() }
-        w.write((a!!.plus(b!!)).toString() + "\n")
-    }
+    val x = r.readLine()!!.toInt()
+    val y = r.readLine()!!.toInt()
+    val result = if(x > 0 && y > 0) "1" else if(x < 0 && y > 0) "2" else if(x < 0 && y < 0) "3" else "4"
+    w.write(result)
     w.close()
 }
