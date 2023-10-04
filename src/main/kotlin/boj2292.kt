@@ -8,16 +8,16 @@ fun main() {
     val w = BufferedWriter(OutputStreamWriter(System.out))
     val n = r.readLine().toInt()
     var tmp = 6
-    var hexagon = 1
+    var temp = 1
     val arr = mutableListOf<Int>()
     for(i in 0 until n) {
-        arr.add(hexagon)
+        arr.add(temp)
         if(arr[i] >= n) {
             w.write((i + 1).toString())
             w.close()
             return
         }
-        hexagon += tmp
+        temp += tmp
         tmp += 6
     }
 }
