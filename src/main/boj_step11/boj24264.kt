@@ -6,8 +6,7 @@ import java.io.OutputStreamWriter
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
     val w = BufferedWriter(OutputStreamWriter(System.out))
-    val n = r.readLine().toInt()
-    w.write("$n\n")
-    w.write("1")
+    val n = r.readLine().toLong()
+    w.write("${n * n}\n2")
     w.close()
 }
