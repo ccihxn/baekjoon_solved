@@ -2,6 +2,7 @@ import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
+import java.math.BigInteger
 
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
@@ -11,12 +12,7 @@ fun main() {
     w.close()
 }
 
-private fun factorial(n: Int): Int {
-    if (n == 0) return 1
-    return factorialTail(n, 1)
-}
-
-private fun factorialTail(n: Int, acc: Int): Int {
-    if (n == 1) return acc
-    return factorialTail(n - 1, acc * n)
+private fun factorial(n: Int): BigInteger {
+    if (n <= 1) return BigInteger.valueOf(1)
+    return n.toBigInteger() * factorial(n - 1)
 }
