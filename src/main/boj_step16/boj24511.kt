@@ -7,15 +7,16 @@ import java.util.*
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
     val w = BufferedWriter(OutputStreamWriter(System.out))
-    r.readLine().toInt()
-    val queuestack: Deque<Int> = LinkedList()
-    val partition = LinkedList<Int>()
-    r.readLine().split(" ").map { it.toInt() }.forEach { partition.add(it) }
+    val n = r.readLine().toInt()
+    val isQueuestack = r.readLine().split(" ").map { it.toInt() }
+    val queuestack = LinkedList<Int>()
     r.readLine().split(" ").map { it.toInt() }.forEachIndexed { index, i ->
-        if (partition[index] == 0) queuestack.add(i)
+        if (isQueuestack[index] == 0) queuestack.add(i)
     }
     val m = r.readLine().toInt()
-    r.readLine().split(" ").map { it.toInt() }.forEach { queuestack.addFirst(it) }
-    repeat(m) { w.write("${queuestack.pollLast()} ") }
+    r.readLine().split(" ").map { it.toInt() }.forEach {
+        queuestack.push(it)
+    }
+    repeat(m) { w.append("${queuestack.removeLast()} ") }
     w.close()
 }

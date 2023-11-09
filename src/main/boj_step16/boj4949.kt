@@ -7,33 +7,24 @@ import java.util.*
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
     val w = BufferedWriter(OutputStreamWriter(System.out))
-    val stack = Stack<Boolean>()
     while (true) {
-        stack.clear()
-        val str = r.readLine()
-        if (str.equals(".")) break
-        str.forEach {
-            when (it) {
-                '(' -> stack.add(true)
-                '[' -> stack.add(false)
-                ')' -> {
-                    if (!stack.contains(true)) {
-                        w.write("no\n")
-                        return@forEach
-                    } else stack.remove(true)
-                }
-
-                ']' -> {
-                    if (!stack.contains(false)) {
-                        w.write("no\n")
-                        return@forEach
-                    } else stack.remove(false)
-                }
-            }
-        }
-        if (stack.isEmpty()) w.write("yes\n")
-        else w.write("no\n")
-
+        val s = r.readLine()
+        if (s.equals(".")) break
+        w.appendLine(if (isVPS(s)) "yes" else "no")
     }
     w.close()
+}
+
+private fun isVPS(s: String): Boolean {
+    val list = Stack<Boolean>()
+    s.forEach {
+        when (it) {
+            ')' -> if (list.isEmpty() || !list.pop()) return false
+            ']' -> if (list.isEmpty() || list.pop()) return false
+            '(' -> list.push(true)
+            '[' -> list.push(false)
+        }
+    }
+    if (list.isEmpty()) return true
+    else return false
 }
