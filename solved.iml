@@ -18,6 +18,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/boj_step19" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/boj_step20" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/boj_step21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step2" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

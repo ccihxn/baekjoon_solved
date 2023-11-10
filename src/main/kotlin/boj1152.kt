@@ -1,15 +1,17 @@
-import java.io.BufferedReader
-import java.io.BufferedWriter
-import java.io.InputStreamReader
-import java.io.OutputStreamWriter
-import java.util.StringTokenizer
+import java.util.Scanner
 
 fun main() {
-    val r = BufferedReader(InputStreamReader(System.`in`))
-    val w = BufferedWriter(OutputStreamWriter(System.out))
-    val s = r.readLine()
-    var st = StringTokenizer(s)
-    val count = st.countTokens()
-    w.write(count.toString())
-    w.close()
+    val sc = Scanner(System.`in`)
+    var arr = mutableListOf("")
+    val s = sc.nextLine()
+    var tmp = 0
+    arr = s.split(" ").toMutableList()
+    while (tmp < arr.size) {
+        if (arr[tmp].isEmpty()) {
+            arr.removeAt(tmp)
+        } else {
+            tmp++
+        }
+    }
+    println(arr.size)
 }
