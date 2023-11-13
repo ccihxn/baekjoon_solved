@@ -20,6 +20,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/boj_step21" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step9" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
