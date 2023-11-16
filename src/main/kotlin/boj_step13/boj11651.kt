@@ -3,7 +3,7 @@ import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-//data class Node(val x: Int, val y: Int)
+data class Node(val x: Int, val y: Int)
 
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))

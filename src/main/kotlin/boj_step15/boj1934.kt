@@ -3,21 +3,17 @@ import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-data class Node(val x: Int, val y: Int)
 
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
     val w = BufferedWriter(OutputStreamWriter(System.out))
     val n = r.readLine().toInt()
-    val arr = Array<Node?>(n) { null }
     repeat(n) {
-        val (x, y) = r.readLine()!!.split(" ").map { it.toInt() }
-        arr[it] = Node(x, y)
-    }
-    arr.sortWith(compareBy<Node?> { it!!.x }.thenBy { it!!.y })
-    arr.forEach {
-        w.write("${it!!.x} ${it!!.y}")
+        val (a, b) = r.readLine().split(" ").map { it.toInt() }
+        w.write(((a * b) / gcd(a, b)).toString())
         w.newLine()
     }
     w.close()
 }
+
+private fun gcd(a: Int, b: Int): Int = if (b != 0) gcd(b, a % b) else a

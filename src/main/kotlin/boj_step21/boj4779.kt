@@ -25,7 +25,7 @@ private fun hyphens(s:String, n: Int): String {
     var temp = ""
     repeat(3) {
         when (it) {
-            1 -> s.forEach { temp += " " }
+            1 -> temp += s.replace("-", " ")
             else -> temp += s
         }
     }
