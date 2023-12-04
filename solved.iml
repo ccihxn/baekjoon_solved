@@ -47,6 +47,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step9" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/others" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/dfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Java/others" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/dfs" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

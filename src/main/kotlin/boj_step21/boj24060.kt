@@ -3,10 +3,10 @@ import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-val tmp = IntArray(500_000)
-var count = 0
-var result = -1
-var temp = 0
+private val tmp = IntArray(500_000)
+private var count = 0
+private var result = -1
+private var temp = 0
 fun main() {
     val r = BufferedReader(InputStreamReader(System.`in`))
     val w = BufferedWriter(OutputStreamWriter(System.out))
