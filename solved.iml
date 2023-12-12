@@ -34,26 +34,26 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step16" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step19" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step20" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step10" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step11" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step12" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step13" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step14" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step15" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step16" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step19" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step20" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step21" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step9" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/others" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step21" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/boj_step22" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/dfs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Java/others" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/boj_step22" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin/dfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/boj_step9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/dfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Kotlin/others" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
