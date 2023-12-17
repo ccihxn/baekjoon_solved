@@ -1,9 +1,9 @@
 import sys
 cin = sys.stdin.readline
 
-N = int(cin())
 A = []
-for _ in range(N):
+for _ in range(5):
     A.append(int(cin()))
 A = sorted(A)
-for n in A: print(n)
+print(sum(A) // 5)
+print(A[2])
