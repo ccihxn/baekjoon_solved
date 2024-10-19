@@ -1,3 +1,9 @@
-//
-// Created by 전지환 on 24. 6. 12.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    string N;
+    int B;
+    cin >> N >> B;
+    cout << stoi(N, nullptr, B);
+}

@@ -1,3 +1,11 @@
-//
-// Created by 전지환 on 24. 6. 11.
-//
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    string A, B;
+    cin >> A >> B;
+    reverse(A.begin(), A.end());
+    reverse(B.begin(), B.end());
+    cout << ((stoi(A) > stoi(B)) ? stoi(A) : stoi(B));
+}

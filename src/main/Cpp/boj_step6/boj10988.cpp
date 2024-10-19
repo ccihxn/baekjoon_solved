@@ -1,3 +1,15 @@
-//
-// Created by 전지환 on 24. 6. 11.
-//
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+bool isPalindrome(string s) {
+    string rev = s;
+    reverse(rev.begin(), rev.end());
+    return s == rev;
+}
+
+int main() {
+    string s;
+    cin >> s;
+    cout << isPalindrome(s);
+}

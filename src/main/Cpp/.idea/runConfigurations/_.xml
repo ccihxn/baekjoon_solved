@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="현재 파일" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp" TARGET_NAME="Cpp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Cpp" RUN_TARGET_NAME="Cpp">
+  <configuration default="false" name="현재 파일" type="CMakeRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp" RUN_TARGET_NAME="Cpp" EXPLICIT_BUILD_TARGET_NAME="all">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>

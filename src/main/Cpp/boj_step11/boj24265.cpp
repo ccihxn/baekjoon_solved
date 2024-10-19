@@ -1,3 +1,12 @@
-//
-// Created by 전지환 on 24. 6. 18.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    long sum = 0, n;
+    cin >> n;
+
+    for (int i = 1; i < n; i++)
+        sum += i;
+
+    cout << sum << endl << 2;
+}

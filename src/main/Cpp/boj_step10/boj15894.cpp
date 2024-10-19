@@ -1,3 +1,8 @@
-//
-// Created by 전지환 on 24. 6. 13.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long n;
+    cin >> n;
+    cout << n * 4;
+}

@@ -1,3 +1,15 @@
-//
-// Created by 전지환 on 24. 6. 13.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, devisor = 2;
+    cin >> N;
+
+    while (N != 1) {
+        if (N % devisor == 0) {
+            cout << devisor << endl;
+            N /= devisor;
+        } else
+            devisor++;
+    }
+}

@@ -1,3 +1,18 @@
-//
-// Created by 전지환 on 24. 6. 23.
-//
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+    vector<int> vect(N);
+
+    for (int & i : vect)
+        cin >> i;
+
+    sort(vect.begin(), vect.end());
+
+    for (int & i : vect)
+        cout << i << endl;
+}

@@ -1,3 +1,9 @@
-//
-// Created by 전지환 on 24. 10. 9.
-//
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+    cout << static_cast<int>(sqrt(N));
+}
