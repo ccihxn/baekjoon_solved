@@ -1,11 +1,15 @@
 import java.io.*;
-import java.util.StringTokenizer;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
-        StringTokenizer tokenizer = new StringTokenizer(reader.readLine());
 
+        Long n = Long.parseLong(reader.readLine()), res = 1L;
+
+        for (int i = 1; i <= n; i++)
+            res *= i;
+
+        writer.append(String.valueOf(res)).close();
     }
 }

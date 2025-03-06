@@ -1,3 +1,5 @@
-//
-// Created by 전지환 on 24. 6. 10.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+}
